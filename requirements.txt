@@ -1,0 +1,6 @@
+streamlit
+supabase
+pandas
+matplotlib
+weasyprint
+python-dotenv
