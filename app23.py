@@ -28,6 +28,11 @@ from typing import Optional
 import streamlit as st
 from zoneinfo import ZoneInfo
 import pandas as pd
+# פתרון חסימת iframe ברמת הקוד
+st.markdown(
+    '<meta http-equiv="Content-Security-Policy" content="frame-ancestors *;">',
+    unsafe_allow_html=True
+)
 import matplotlib.pyplot as plt
 from weasyprint import HTML
 
